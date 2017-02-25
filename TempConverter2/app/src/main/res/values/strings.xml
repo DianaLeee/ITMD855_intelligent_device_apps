@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TempConverter2</string>
+    <string name="stubview_title">5 Day Chicago Forecast</string>
+    <string name="backbutton">Back</string>
+</resources>
