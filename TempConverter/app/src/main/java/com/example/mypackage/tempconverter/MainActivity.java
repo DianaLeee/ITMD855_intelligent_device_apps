@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,12 +15,13 @@ public class MainActivity extends AppCompatActivity {
     private EditText text;
     View view; //create object to manipulate background color
     private ImageView iv; //create iv object to manipulate image view
+    private TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        text = (EditText) findViewById(R.id.editText);
+
     }
     /* this method is called when user clicks the button and is handled
     because we assigned the name to the "OnClick property" of the
@@ -64,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (inputValue < 0) {
 //                    set hex color to red
                     view.setBackgroundColor(Color.RED);
+                    //view.setBackgroundColor(Color.rgb(0,0,0));
 //                    clear image
                     ((ImageView) iv.findViewById(R.id.imageView)).setImageResource(0);
                     //image that represent coldness

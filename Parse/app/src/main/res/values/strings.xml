@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Parse</string>
+    <string name="btLoginText">Log In</string>
+    <string name="attempt">Attempt left : 3</string>
+</resources>

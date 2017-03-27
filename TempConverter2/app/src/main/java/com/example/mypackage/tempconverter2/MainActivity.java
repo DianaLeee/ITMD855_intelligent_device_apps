@@ -146,6 +146,5 @@ public class MainActivity extends AppCompatActivity {
         lv.setAdapter(adapter);
 
 
-
     }//end onCreate method
 }
